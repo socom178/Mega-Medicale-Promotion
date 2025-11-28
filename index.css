@@ -205,7 +205,7 @@
         padding: 10px;
         border-radius: 10px;
     }
-
+    
     .carousel-caption {
         top: 15vh;  /* remonte ou descend le bloc */
         left: 10%;      /* décale vers la gauche ou droite */
@@ -223,7 +223,6 @@
         font-weight: bol;
         width: 90%;
         margin-bottom: 5vh;
-
     }
     .carousel-caption h3 {
         color: #13a300; /* vert exemple */
@@ -689,7 +688,6 @@
         border-radius: 5px;
         height: 25vh;
         width: 85%;
-
     }
 
     .carousel-caption h2 {
@@ -699,7 +697,6 @@
         font-weight: bol;
         width: 90%;
         margin-bottom: 1vh;
-
     }
     .carousel-caption h3 {
         color: #13a300; /* vert exemple */
@@ -709,7 +706,6 @@
         width: 90%;
         margin-top: -2vh;
         margin-bottom: 5vh;
-
     }
 
     .carousel-caption h4 {
@@ -735,7 +731,6 @@
         border-radius: 5px;
         height: 37vh;
         width: 85%;
-        
     }
     .boxxes{
         background-color:transparent;
@@ -767,6 +762,7 @@
         border: 1px solid rgb(238, 19, 19);
         color:rgb(238, 19, 19) ;
         border-radius: 5px;
+        font-family: 'montserrat';
     }
     .menulist:hover{
         transition: 0.8s;
@@ -775,6 +771,7 @@
         color: white;
     }
     .menulit{
+        font-family: 'montserrat';
         margin-top: 1vh;
         margin-left:3vw;
         margin-top:2vh;
@@ -1240,8 +1237,7 @@
     }
 
     .option{
-        margin-top: 8vh;
-        width:100%
+        margin-top: 8vh;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       width:100%
     }
     .optio{
         margin-top: 6vh;
