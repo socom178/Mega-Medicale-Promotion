@@ -48,7 +48,7 @@
     .carousel-caption h2 {
         color: #13a300; /* vert exemple */
         font-family:Verdana, Geneva, Tahoma, sans-serif; /* police personnalisée */
-        font-size: 45px;
+        font-size: 35px;
         font-weight: bol;
         width: 90%;
         margin-bottom: 5vh;
@@ -68,7 +68,6 @@
         margin-bottom: 20px; /* espace sous le paragraphe */
         width: 80%;
         color: black;
-        font-weight: bold;
     }
     .carousel-caption h5 {
         width: 90%;
