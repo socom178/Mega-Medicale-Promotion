@@ -1,11 +1,4 @@
    .menuAF{
-        padding: 5px;
-        font-size: 20px;
-        border-radius: 3px;
-        background-color: transparent;
-        color: #007900;
-        border: 1px solid rgb(21, 180, 0);
-        width: auto;
         display: none;
     }
     .close-btn{
@@ -183,3 +176,11 @@
         background-color:#040074;
         color: white;
     }
+
+@media screen and (max-width:600px){
+    .logo{
+        width: 25vw;
+        height: 10vh;
+        margin-left: 2vw;
+    }
+}
