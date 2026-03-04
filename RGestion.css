@@ -246,23 +246,22 @@
     @media screen and (max-width:600px){
 
 
-        .menuAF{
-        padding: 5px;
-        font-size: 18px;
+    .menuAF{
+        padding: 4px;
+        font-size: 16px;
         border-radius: 5px;
         background-color: transparent;
-        color: #007900;
-        border: 1px solid rgb(21, 180, 0);
-        width: auto;
-        margin-left: 28vw;
-        margin-top: 4vh;
-        height: 6vh;
-        
+        color: #995c01;
+        border: 1px solid #794900;
+        width:auto;
+        margin-left: 48%;
+        margin-top: 2.5vh;
+        height:5vh;
     }
-    .affiche{
+    .menuAF.affiche{
         display: block;
     }
-    .cache{
+    .menuAF.cache{
         display: none;
     }
     nav{
@@ -271,20 +270,35 @@
         flex-direction: column;
         background-color: #e7e7e7;
         padding: 10px;
-        position:fixed;
         font-size: 25px;
         right: 0.5%;
-        top: 5.8%;
+        top: 6%;
         padding-top: 8vh;
+        position: fixed;
+        z-index: 100;
+    }
+    nav.affiche{
+        display: block;
+    }
+    nav.cache{
+        display: none;
+    }
+    .carousel{
+        position: relative;
     }
     .close-btn{
         display: block;
-        margin-left: 55vw;
+        margin-left: 60vw;
         margin-top: -6vh;
-        text-align: center;
-        height: 5.4vh;
+        font-size:18px;
         width: 11vw;
-        position: absolute;
+        height:5vh;
+    }
+    .close-btn.affiche{
+        display: block;
+    }
+    .close-btn.cache{
+        display: none;
     }
 
     .dropdown  {

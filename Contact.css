@@ -585,52 +585,59 @@
     @media screen and (min-width: 601px) and (max-width: 1024px){
 
         .menuAF{
-        padding: 5px;
-        font-size: 18px;
+        padding: 4px;
+        font-size: 16px;
         border-radius: 5px;
         background-color: transparent;
-        color: #007900;
-        border: 1px solid rgb(21, 180, 0);
-        width: auto;
-        margin-left: 40%;
-        margin-top: 4vh;
-        height: 6vh;
-        width: 15%;
-        
+        color: #995c01;
+        border: 1px solid #794900;
+        width:auto;
+        margin-left: 48%;
+        margin-top: 2.5vh;
+        height:5vh;
     }
-    .affiche{
+    .menuAF.affiche{
         display: block;
-        opacity: 1;
-        transform: translateX(0);
     }
-    .cache{
+    .menuAF.cache{
         display: none;
     }
     nav{
-        width: 60%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         background-color: #e7e7e7;
         padding: 10px;
-        position:fixed;
         font-size: 25px;
         right: 0.5%;
-        top: -3%;
+        top: 6%;
         padding-top: 8vh;
-        opacity: 0;
-        transform: translateX(10vw);
-        transition: all 0.8s ease;
+        position: fixed;
+        z-index: 100;
+    }
+    nav.affiche{
+        display: block;
+    }
+    nav.cache{
+        display: none;
+    }
+    .carousel{
+        position: relative;
     }
     .close-btn{
         display: block;
-        margin-left: 40vw;
+        margin-left: 60vw;
         margin-top: -6vh;
-        text-align: center;
-        height: 5.4vh;
+        font-size:18px;
         width: 11vw;
-        position: absolute;
+        height:5vh;
     }
-
+    .close-btn.affiche{
+        display: block;
+    }
+    .close-btn.cache{
+        display: none;
+    }
     .dropdown  {
         font-family:'Montserrat';
         font-weight: bold;
